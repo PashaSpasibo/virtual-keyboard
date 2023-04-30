@@ -1,0 +1,17 @@
+@import './_normalize.css';
+@import './_keyboard';
+
+body {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  justify-items: center;
+}
+.main {
+  margin: 0 auto;
+}
+.header-heading {
+
+  text-align: center;
+}
