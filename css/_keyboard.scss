@@ -9,8 +9,8 @@
 
 .key {
   display: block;
-  height: 1em;
-  width: 1em;
+  height: 2em;
+  width: 2em;
   margin: 0 0.1em;
 }
 
@@ -27,8 +27,8 @@
 //non-standart keys
 
 .enter-key{
-  height: 2.2em;
-  width: .7em;
+  height: 4.4em;
+  width: 2em;
   margin: .1em 0;
   grid-row: 2/4;
   grid-column: 2;
@@ -41,7 +41,7 @@
 }
 
 .arrow{
-  height: 0.5em;
+  height: 1em;
 }
 
 .arrow-up{
@@ -65,28 +65,28 @@
 }
 
 .backspace-key {
-  width: 1.8em;
+  width: 3.6em;
 }
 .tab-key {
-  width: 1.4em;
+  width: 2.8em;
 }
 
 .caps-key {
-  width: 1.7em;
+  width: 3.4em;
 }
 
 .shift-l-key {
-  width: 1.3em;
-}
-
-.shift-r-key {
   width: 2.6em;
 }
 
+.shift-r-key {
+  width: 5.2em;
+}
+
 .space-key{
-  width: 5.8em;
+  width: 11.2em;
 }
 
 .meta-key {
-  width: 1.3em;
+  width: 2.6em;
 }
