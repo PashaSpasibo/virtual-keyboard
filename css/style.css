@@ -94,6 +94,12 @@
   width: 2.6em;
 }
 
+.arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .key + .active {
   background-color: #27aa8c;
   transition: 0.15s ease-in;

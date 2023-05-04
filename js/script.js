@@ -393,19 +393,23 @@ keyboardRow5.append(arrows);
 let arrowUp = document.createElement('button');
 arrowUp.className = 'arrow-up arrow key';
 arrows.append(arrowUp);
+arrowUp.innerHTML = '&#8613;'
 arrowUp.code = 'ArrowUp'
 let arrowLeft = document.createElement('button');
 arrowLeft.className = 'arrow-left arrow key';
 arrows.append(arrowLeft);
 arrowLeft.code = 'ArrowLeft'
+arrowLeft.innerHTML ='&#8612;'
 let arrowDown = document.createElement('button');
 arrowDown.className = 'arrow-down arrow key';
 arrows.append(arrowDown);
 arrowDown.code = 'ArrowDown'
+arrowDown.innerHTML ='&#8615;';
 let arrowRight = document.createElement('button');
 arrowRight.className = 'arrow-right arrow key';
 arrows.append(arrowRight);
 arrowRight.code = 'ArrowRight'
+arrowRight.innerHTML = '&#8614;';
 // let  = document.createElement('');
 // .className = '';
 // .append();
