@@ -12,6 +12,8 @@
   height: 2em;
   width: 2em;
   margin: 0 0.1em;
+  border-radius: 5px;
+  background-color: aqua;
 }
 
 .keyboard__row {
@@ -89,4 +91,7 @@
 
 .meta-key {
   width: 2.6em;
+}
+.key + .active {
+  background-color: #ffb300;
 }
