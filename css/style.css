@@ -5,6 +5,8 @@
   grid-template-rows: 5;
   border: 3px solid black;
   border-radius: 5px;
+  padding: 0.3em;
+  background-color: #0eb3a3;
 }
 
 .key {
@@ -93,7 +95,8 @@
 }
 
 .key + .active {
-  background-color: #ffb300;
+  background-color: #27aa8c;
+  transition: 0.15s ease-in;
 }
 
 body {
